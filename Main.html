@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+/* Done by Jolie Koik */
+    
+<title>Pizza is life</title>
+        <link rel="stylesheet" type="text/css" href="Main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button{
+    background-color: #4CAF50; /*Green*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+</head>
+<body>
+    
+    <p align="right">
+    <button class="button"><a href="Register.html">Sign Up/ Log In</a></button>
+    <button class="button">Log Out</button>
+    </p>
+    
+    
+<h1>Online Pizza Ordering</h1>
+<p>Best pizza ordering in Penang</p>
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Menu', this, 'green')" id="defaultOpen">Menu</button>
+<button class="tablink" onclick="openPage('Promotions', this, 'blue')">Promotions</button>
+<button class="tablink" onclick="openPage('LocateUs', this, 'orange')">Locate Us</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="Menu" class="tabcontent">
+  <h3>Menu</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Promotions" class="tabcontent">
+  <h3>Promotions</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="LocateUs" class="tabcontent">
+  <h3>Locate Us</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+</body>
+</html>
